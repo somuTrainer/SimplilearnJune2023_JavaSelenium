@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Suite Demo with xml" verbose="10"> 
+  <test name="Multiple tests execution" preserve-order="true">
+    <classes>
+      <class name="seleniumPrograms.ScrollPageWithTestNG" />
+      <class name="seleniumPrograms.TestNG2" />
+      <class name="seleniumPrograms.TestNGTest1" />
+    </classes>
+  </test>
+</suite>
